@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Playfair+Display:wght@800;900&display=swap');
+
+:root {
+  --paper: oklch(96% 0.025 83);
+  --ink: oklch(19% 0.02 238);
+  --muted: oklch(43% 0.028 238);
+  --line: oklch(82% 0.028 76);
+  --line-strong: oklch(65% 0.035 74);
+  --teal: oklch(63% 0.095 190);
+  --teal-ink: oklch(35% 0.075 190);
+  --brass: oklch(73% 0.115 78);
+  --display: 'Playfair Display', Georgia, serif;
+  --body: Manrope, Avenir Next, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
